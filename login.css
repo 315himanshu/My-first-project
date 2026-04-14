@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f3;
+    /* Light Sage Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 2. THE LOGIN BOX */
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #5d737e;
+    margin-bottom: 20px;
+}
+
+/* 3. INPUT FIELDS */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    /* Important for width */
+}
+
+/* 4. THE BUTTON */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #76a193;
+    /* Sage Green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #5d8276;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer a {
+    color: #d4a373;
+    text-decoration: none;
+}
